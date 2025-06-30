@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: #f5f6fa;
+  font-family: 'Noto Sans KR', Arial, sans-serif;
+  color: #22223b;
+}
+#app {
+  min-height: 100vh;
+}
+.main-nav {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 0 1rem 0;
+  background: #e0e7ff;
+  border-bottom: 1px solid #cddafd;
+}
+.main-nav a {
+  color: #3a0ca3;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+.main-nav a.router-link-exact-active {
+  background: #4361ee;
+  color: #fff;
+}
